@@ -8,7 +8,7 @@
   "repository": "private",
   "scripts": {
     "start": "nodemon dist/index.js",
-    "test": "mocha --require ts-node/register test/**/*.spec.ts"
+    "test": "jest"
   },
   "dependencies": {
     "express": "~4.16.3",
@@ -21,6 +21,10 @@
     "@types/mongoose": "~5.0.13",
     "uuid": "~3.2.1",
     "@types/uuid": "~3.4.3"
+  },
+  "jest": {
+    "verbose": true,
+    "testRegex": "./test/.*.js$"
   },
   "devDependencies": {
     "jest": "~23.0.0",

@@ -30,9 +30,6 @@ authRouter.use('/v0/BitCalc', v0BitCalc(timekeeper));
 let v1Categories = require('./routes/v1Categories');
 authRouter.use('/v1/Category', v1Categories(timekeeper));
 
-//let v1BitCalc = require('./routes/v1BitCalc');
-//authRouter.use('/v1/BitCalc', v1BitCalc(timekeeper));
-
 app.use('/api', authRouter);
 
 app.listen(port);
