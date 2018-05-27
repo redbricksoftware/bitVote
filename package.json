@@ -21,5 +21,9 @@
     "@types/mongoose": "~5.0.13",
     "uuid": "~3.2.1",
     "@types/uuid": "~3.4.3"
+  },
+  "devDependencies": {
+    "jest": "~23.0.0",
+    "@types/jest": "~22.2.3"
   }
 }
