@@ -1,0 +1,25 @@
+{
+  "name": "bitVote",
+  "version": "0.0.1",
+  "description": "Bitwise voting",
+  "author": "bryce deneen",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": "private",
+  "scripts": {
+    "start": "nodemon dist/index.js",
+    "test": "mocha --require ts-node/register test/**/*.spec.ts"
+  },
+  "dependencies": {
+    "express": "~4.16.3",
+    "@types/node": "~10.0.4",
+    "@types/express": "~4.11.1",
+    "promise": "~8.0.1",
+    "moment": "~2.22.1",
+    "@types/moment": "~2.13.0",
+    "mongoose": "~5.0.17",
+    "@types/mongoose": "~5.0.13",
+    "uuid": "~3.2.1",
+    "@types/uuid": "~3.4.3"
+  }
+}

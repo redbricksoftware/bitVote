@@ -1,0 +1,33 @@
+[
+  {
+    "id": "97398c82-1f5c-4b73-98c7-8db879007670",
+    "ownerID": "-1",
+    "categories": [
+      {
+        "categoryDetails": [
+          {
+            "name": "abc",
+            "description": "def"
+          },
+          {
+            "name": "abc",
+            "description": "def"
+          }
+        ],
+        "id": "fdaa5921-d015-4dc9-9652-b4e763c02e11",
+        "name": "def",
+        "question": "some def"
+      },
+      {
+        "categoryDetails": [],
+        "id": "aa306693-a5db-458e-8410-d08076f5e709",
+        "name": "def",
+        "question": "some def"
+      }
+    ],
+    "votingStarted": false,
+    "bitVoteType": 0,
+    "name": "def",
+    "description": "hij desc"
+  }
+]
